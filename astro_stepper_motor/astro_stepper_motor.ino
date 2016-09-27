@@ -11,7 +11,7 @@ CustomStepper stepper(8, 9, 10, 11, (byte[]){8, B1000, B1100, B0100, B0110, B001
 
 void setup(){
   //sets the RPM
-  stepper.setRPM(1.924);
+  stepper.setRPM(1.9216);
   //sets the Steps Per Rotation, in this case it is 64 * the 283712/4455 annoying ger ratio
   //for my motor (it works with float to be able to deal with these non-integer gear ratios)
   stepper.setSPR(4075.7728395);
